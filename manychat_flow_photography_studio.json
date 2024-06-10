@@ -1,0 +1,66 @@
+
+{
+  "version": "v2",
+  "content": {
+    "messages": [
+      {
+        "id": "welcome_message",
+        "message": {
+          "text": "Oi! Bem-vindo ao [Nome do Estúdio de Fotografia]. Eu sou o [Nome do Assistente Virtual], como posso te ajudar hoje?",
+          "quick_replies": [
+            {
+              "title": "Queria saber mais sobre os serviços de fotografia",
+              "payload": "services_info"
+            },
+            {
+              "title": "Quero agendar uma sessão",
+              "payload": "book_session"
+            },
+            {
+              "title": "Posso ver o portfólio?",
+              "payload": "portfolio"
+            },
+            {
+              "title": "Tenho outra dúvida",
+              "payload": "other_question"
+            }
+          ]
+        }
+      },
+      {
+        "id": "services_info",
+        "message": {
+          "text": "Oferecemos uma variedade de serviços de fotografia, incluindo: - Ensaio de família - Ensaio de gestante - Book fotográfico - Cobertura de eventos Você gostaria de mais detalhes sobre algum desses serviços?",
+          "quick_replies": [
+            {
+              "title": "Sim, por favor!",
+              "payload": "yes_services_details"
+            },
+            {
+              "title": "Não, estou só dando uma olhada",
+              "payload": "no_services_details"
+            }
+          ]
+        }
+      },
+      {
+        "id": "book_session",
+        "message": {
+          "text": "Que ótimo que você quer agendar uma sessão! Pode me passar seu nome completo, telefone e a data que você tem em mente? Vamos tentar encontrar o melhor horário para você."
+        }
+      },
+      {
+        "id": "portfolio",
+        "message": {
+          "text": "Claro! Nosso portfólio está disponível neste link: [Link do Portfólio]. Dê uma olhada e me avise se tiver qualquer pergunta."
+        }
+      },
+      {
+        "id": "other_question",
+        "message": {
+          "text": "Claro, estou aqui para ajudar! Qual é a sua dúvida?"
+        }
+      }
+    ]
+  }
+}
